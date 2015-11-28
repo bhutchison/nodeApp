@@ -1,1 +1,1 @@
-require('./connect.js');
+require('./connect');
