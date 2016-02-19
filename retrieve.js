@@ -28,7 +28,7 @@ http.createServer(function(request, response) {
             response.write('Connection established to' + url +"\n");
 
             //get the documents in collection
-            var collection = db.collection('users');
+            var collection = db.collection('user');
 
             //We have a cursor now iwth our find criteria
             var results = collection.find({name: 'modulus user'});
@@ -47,7 +47,7 @@ http.createServer(function(request, response) {
                 }
             });
 
-            
+
             // do some work here with the database.
 
             //Done Close connection
